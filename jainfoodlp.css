@@ -1,0 +1,126 @@
+/* General body styles */
+body {
+    background-color: #0c0000; /* Black background */
+    color: #ffffff; /* White text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #111; /* Slightly lighter black */
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #FFA500; /* Orange hover effect */
+}
+
+/* Headings */
+h1, h2, h3 {
+    color:  #ff0000; /* Orange headings */
+}
+
+/* Highlight text */
+.highlight {
+    color:  #ff0011; /* Orange headings */
+}
+
+/* Hero section */
+.hero {
+    padding: 20px 0;
+    text-align: center;
+    background-image: url('https://media.timeout.com/images/101842743/image.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.cta-btn {
+    background-color: #f10707;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-btn:hover {
+    background-color: #ff7f00;
+}
+
+/* Menu section */
+.menu-section {
+    padding: 3rem;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-item h3 {
+    margin: 1rem 0;
+}
+
+.menu-item p {
+    color: #ddd; /* Slightly lighter text for descriptions */
+}
+
+/* About section */
+.about-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Contact section */
+.contact-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    color: #fff;
+}
