@@ -1,7 +1,7 @@
 /* General body styles */
 body {
-    background-color: #0c0000; /* Black background */
-    color: #ffffff; /* White text */
+    background-color: #0c0000; 
+    color: #ffffff; 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #111; /* Slightly lighter black */
+    background-color: #111; 
 }
 
 .logo {
@@ -34,24 +34,24 @@ body {
 }
 
 .navbar ul li a:hover {
-    color: #FFA500; /* Orange hover effect */
+    color: #FFA500; 
 }
 
 /* Headings */
 h1, h2, h3 {
-    color:  #ff0000; /* Orange headings */
+    color:  #ff0000; 
 }
 
 /* Highlight text */
 .highlight {
-    color:  #ff0011; /* Orange headings */
+    color:  #ff0011; 
 }
 
 /* Hero section */
 .hero {
     padding: 20px 0;
     text-align: center;
-    background-image: url('https://media.timeout.com/images/101842743/image.jpg');
+    background-image: url("https://media.timeout.com/images/101842743/image.jpg");
     background-size: cover;
     background-position: right;
 }
@@ -99,7 +99,7 @@ h1, h2, h3 {
 }
 
 .menu-item p {
-    color: #ddd; /* Slightly lighter text for descriptions */
+    color: #ddd; 
 }
 
 /* About section */
